@@ -1,0 +1,30 @@
+{
+  "name": "forkify-app",
+  "version": "1.0.0",
+  "description": "forkify app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuhoKangas/forkify-app.git"
+  },
+  "author": "Juho Kangas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuhoKangas/forkify-app/issues"
+  },
+  "homepage": "https://github.com/JuhoKangas/forkify-app#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.1",
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.5"
+  }
+}
