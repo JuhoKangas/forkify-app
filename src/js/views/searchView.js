@@ -14,7 +14,15 @@ export const clearResults = () => {
     elements.searchResPages.innerHTML = '';
 };
 
-// Can be used to limit the recipe title to fit in one line
+export const highLightSelected = id => {
+    const resultsArr = Array.from(document.querySelectorAll('.results__link'));
+    resultsArr.forEach(el => {
+        el.classList.remove('results__link--active');
+    });
+    document.querySelector(`a[href="#${id}"]`).classList.add('results__link--active');
+};
+
+// Can be used to limit the recipe title to fit in one line, I like the full title
 
 // const limitRecipetitle = (title, limit = 17) => {
 //     const newTitle = [];
